@@ -1,0 +1,48 @@
+.overall-div {
+    display: flex;
+    height: 500px;
+
+}
+
+.ndr-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+}
+
+.nmrs-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+
+.ndr-div h2 {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.nmrs-div h2 {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.ndr-div button {
+    margin-top: 5rem;
+    background-color: dodgerblue;
+}
+
+.nmrs-div button {
+    margin-top: 5rem;
+    background-color: dodgerblue;
+}
